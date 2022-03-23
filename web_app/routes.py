@@ -12,3 +12,7 @@ def index():
 @sats.route("/webln", methods=['POST', 'GET'])
 def webln():
     return render_template('test.html')
+
+@sats.route("/create_link", methods=['POST', 'GET'])
+def create():
+    return render_template('create_link.html')

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sats Stream</title>
+		<link rel="stylesheet" href="static/assets/css/main.css">
+		<script src="https://unpkg.com/webln@0.2.0/dist/webln.min.js" 
+			integrity="sha384-mTReBqbhPO7ljQeIoFaD1NYS2KiYMwFJhUNpdwLj+VIuhhjvHQlZ1XpwzAvd93nQ" 
+			crossorigin="anonymous">
+		</script>
+	</head>
+<body>
+
+    <h1 color="white">SATS STREAM</h1>
+    <h2 color="white">Monetize any Youtube video instantly</h2>
+
+    <iframe src="https://giphy.com/embed/jKMt4JQDQSPKlMRW0H" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br><br>
+
+    <!-- use your lightning address to login
+	<h3 color="white">CREATE A UNIQUE LINK BELOW</h3>-->
+    <h4>Login with Lightning</h4>
+    <form action="/login" method="GET" style="float:center;">
+    	<input type="input" value="me@getalby.com" name="username">
+    </form> 
+    <br> 
+
+    <!--embed your link-->
+    <h4>Copy and paste the "embed" link from Youtube</h4>
+    <form action="/login" method="GET" style="float:center;">
+    	<input type="input" value="link" name="youtube_link">
+    </form>
+
+    <h4>Click below to create a unique link to share and instantly monetize your video</h4>
+    <!--go to index with unique link-->
+    <form action="/" method="GET" style="float:center;">
+    	<input type="submit" value="CREATE LINK" name="youtube_link">
+    </form>
+
+
+	<!--import { requestProvider } from 'webln';
+
+	WebLN.requestProvider(/* ... */);
+
+	try {
+	  const webln = await requestProvider();
+	  // Now you can call all of the webln.* methods
+	}
+	catch(err) {
+	  // Tell the user what went wrong
+	  alert(err.message);
+	} -->
+	
+		
+</body>
+</html>
