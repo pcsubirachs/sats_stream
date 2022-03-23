@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+
+html {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+}
