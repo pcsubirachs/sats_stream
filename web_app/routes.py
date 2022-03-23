@@ -8,3 +8,7 @@ sats = Blueprint("sats", __name__)
 @sats.route("/", methods=['POST', 'GET'])
 def index():
     return render_template('index.html')
+
+@sats.route("/webln", methods=['POST', 'GET'])
+def webln():
+    return render_template('test.html')
