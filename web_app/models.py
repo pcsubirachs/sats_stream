@@ -24,3 +24,10 @@ class User(db.Model):
     ln_address = db.Column(db.String(128))
     link = db.Column(db.String(128))
 
+    def __init__(self, ln_address=None, link=None):
+        self.ln_address = ln_address
+        self.link = link
+    
+    def __repr__(self):
+        return '<User %r>' % (self.ln_address)
+

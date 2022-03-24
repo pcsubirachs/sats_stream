@@ -8,7 +8,14 @@
 
 	<h1> AHHHHH HAHAHAHA HAAAAAAAAHAAA </h1>
 
-    <h3>{{ln_url}}</h3>
-		
+    <h3>{{myUser}}</h3>
+
+	{% for user in myUser %}
+		<li> {{ user.ln_address }} - {{ user.link }} </li>
+	{% endfor %}
+
+	<h1>{{ oneUser.ln_address }}</h1>
+	<h1>{{ oneUser.link }}</h1>
+
 </body>
 </html>

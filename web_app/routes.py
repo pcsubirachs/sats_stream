@@ -1,4 +1,4 @@
-from flask import Flask, Blueprint, jsonify, request, render_template, current_app
+from flask import Flask, Blueprint, jsonify, request, render_template, current_app, g
 import requests
 import lnurl
 from lnurl import Lnurl, LnurlResponse, LnurlWithdrawResponse
@@ -119,45 +119,67 @@ def create_user():
 
 # testing
 
+from sqlalchemy import asc
+
 @sats.route("/test", methods=['POST', 'GET'])
 def test():
-    print("bech32: ", bech32)
-    print("hrp: ", bech32_hrp)
-    print("url: ", url)
-    print("host: ", host)
-    print("base: ", base)
-    print("query: ", query)
-    print("query params: ", query_params)
-    
-    #print("handle: ", handle)
-    print("-- decode --")
-    print("scheme: ", ln_url_d_scheme)
-    print("host: ", ln_url_d_host)
-    print("tld: ", ln_url_d_tld)
-    print("host type: ", ln_url_d_host_type)
-    print("path: ", ln_url_d_path)
-    print("query: ", ln_url_d_query)
+    # hack to get the latest user name
+    # definitely not ideal but should work for this app
+    #ln_user = User.query.order_by( asc(User.id) ).all()
+    ##user_text = '<ul>'
+    ##for user in ln_user:
+    ##    user += ('<li>' + user.ln_address + user.link + '</li>')
+    ##    user_text += '</ul>'
+    ##embed_link = User.query.order_by( asc(User.) ).all()
+    #print(ln_user)
+    #print(ln_user[-1])
+    #print(link)
 
-    # building our own json responses
-    print("-- building LNURL json response")
-    print("json: ", res_json)
-    print("dict: ", res_dict)
+    myUser = User.query.all()
+    print(myUser)
+    oneUser = User.query.filter_by(ln_address="yami").first()
 
-    # parsing (not working)
-    #print("-- parsing res --")
-    #print("r: ", r)
-    #print("res: ", res)
-    #print("res ok: ", res_ok)
-    #print("max send: ", res_max_send)
-    #print("max sats: ", res_max_sats)
-    #print("base: ", res_base)
-    #print("query params: ", res_q_params)
-    #print("metadata: ", res_meta1)
-    #print("metadata2: ", res_meta2)
-    #print("metadata3: ", res_meta3)
-    #print("image: ", res_image)
+    return render_template('test.html', myUser=myUser, oneUser=oneUser)
 
-    return render_template('test.html', ln_url=ln_url)
+#@sats.route("/test", methods=['POST', 'GET'])
+#def test():
+#    print("bech32: ", bech32)
+#    print("hrp: ", bech32_hrp)
+#    print("url: ", url)
+#    print("host: ", host)
+#    print("base: ", base)
+#    print("query: ", query)
+#    print("query params: ", query_params)
+#    
+#    #print("handle: ", handle)
+#    print("-- decode --")
+#    print("scheme: ", ln_url_d_scheme)
+#    print("host: ", ln_url_d_host)
+#    print("tld: ", ln_url_d_tld)
+#    print("host type: ", ln_url_d_host_type)
+#    print("path: ", ln_url_d_path)
+#    print("query: ", ln_url_d_query)
+#
+#    # building our own json responses
+#    print("-- building LNURL json response")
+#    print("json: ", res_json)
+#    print("dict: ", res_dict)
+#
+#    # parsing (not working)
+#    #print("-- parsing res --")
+#    #print("r: ", r)
+#    #print("res: ", res)
+#    #print("res ok: ", res_ok)
+#    #print("max send: ", res_max_send)
+#    #print("max sats: ", res_max_sats)
+#    #print("base: ", res_base)
+#    #print("query params: ", res_q_params)
+#    #print("metadata: ", res_meta1)
+#    #print("metadata2: ", res_meta2)
+#    #print("metadata3: ", res_meta3)
+#    #print("image: ", res_image)
+#
+#    return render_template('test.html', ln_url=ln_url)
 
 # examples
 #>>> import lnurl
