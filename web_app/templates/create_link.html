@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sats Stream</title>
+		<title>SATSBUSTER</title>
 		<link rel="stylesheet" href="static/assets/css/main.css">
 		<script src="https://unpkg.com/webln@0.2.0/dist/webln.min.js" 
 			integrity="sha384-mTReBqbhPO7ljQeIoFaD1NYS2KiYMwFJhUNpdwLj+VIuhhjvHQlZ1XpwzAvd93nQ" 
@@ -10,55 +10,23 @@
 	</head>
 <body>
 
-    <h1 color="white">SATS STREAM</h1>
-    <h2 color="white">Monetize any video or livestream instantly</h2>
+    <h1 color="white">SATSBUSTER</h1>
 
     <iframe src="https://giphy.com/embed/jKMt4JQDQSPKlMRW0H" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br><br>
 
-    <!-- use your lightning address to login
-	<h3 color="white">CREATE A UNIQUE LINK BELOW</h3>-->
-    <h4>Login with Lightning</h4>
-    <form action="/login" method="GET" style="float:center;">
-    	<input type="input" value="me@getalby.com" name="username">
-    </form> 
-    <br> 
+    <p>Monetize any video instantly and for free. Easily allow users to send you sats. </p> 
+	<p>Liotta laugh and let the sats flow.</p><br>
 
-    <!--embed your link-->
-    <h4>Copy and paste an "embed" link</h4>
-    <form action="/login" method="GET" style="float:center;">
-    	<input type="input" value="link" name="youtube_link">
-    </form>
-
-    <h4>Click below to create a unique link to share and instantly monetize your video</h4>
-    <!--go to index with unique link-->
-    <form action="/" method="GET" style="float:center;">
-    	<input type="submit" value="CREATE LINK" name="youtube_link">
-    </form>
-
-	<form action="/users/create" method="POST">
+	<form action="/wrapper" method="POST" style="float:center;">
         <label>LN Address:</label>
-        <input type="text" name="ln_address" placeholder="me@getalby.com" value="me@getalby.com">
+        <input type="text" name="ln_address" placeholder="me@getalby.com"><br><br>
 
         <label>Embed Link:</label>
-        <input type="text" name="link" placeholder="youtube.com/myvideo">
+        <input type="text" name="link" placeholder="youtube.com/myvideo"><br><br>
 
-        <button>Submit</button>
+        <button>SATS SATS SATS</button>
     </form>
 
-
-	<!--import { requestProvider } from 'webln';
-
-	WebLN.requestProvider(/* ... */);
-
-	try {
-	  const webln = await requestProvider();
-	  // Now you can call all of the webln.* methods
-	}
-	catch(err) {
-	  // Tell the user what went wrong
-	  alert(err.message);
-	} -->
-	
 		
 </body>
 </html>

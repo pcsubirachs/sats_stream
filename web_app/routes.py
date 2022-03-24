@@ -93,7 +93,7 @@ def pay():
     return render_template('pay.html')
 
 #add a new user route
-@sats.route("/users/create", methods=["POST"])
+@sats.route("/wrapper", methods=["POST"])
 def create_user():
     print("CREATING A NEW USER...")
     print("FORM DATA:", dict(request.form))
@@ -107,9 +107,14 @@ def create_user():
         db.session.add(User(ln_address=ln_address, link=link))
         #db.session.add(User(link=link))
         db.session.commit()
-        return jsonify({"message": "CREATED OK", "ln_address": ln_address, "embed link": link})
+        message = jsonify({"message": "CREATED OK", "ln_address": ln_address, "embed link": link})
+        error_message = jsonify({"message": "OOPS PLEASE SPECIFY A NAME!"})
+        print(message)
+        print(error_message)
+
+        return render_template('wrapper.html')
     else:
-        return jsonify({"message": "OOPS PLEASE SPECIFY A NAME!"})
+        return render_template('error.html')
 
 
 # testing

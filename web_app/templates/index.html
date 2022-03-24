@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sats Stream</title>
+		<title>SATSBUSTER</title>
 		<link rel="stylesheet" href="static/assets/css/main.css">
 		<script src="https://unpkg.com/webln@0.2.0/dist/webln.min.js" 
 			integrity="sha384-mTReBqbhPO7ljQeIoFaD1NYS2KiYMwFJhUNpdwLj+VIuhhjvHQlZ1XpwzAvd93nQ" 
@@ -10,48 +10,23 @@
 	</head>
 <body>
 
-	<h2> Stream Sats & LAUGH Like Liotta </h2> <br>
+    <h1 color="white">SATSBUSTER</h1>
 
-	<form action="/create_link" method="GET" style="float:center;">
-    	<input type="submit" value="LOGIN WITH LIGHTNING" name="send_btc">
+    <iframe src="https://giphy.com/embed/jKMt4JQDQSPKlMRW0H" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br><br>
+
+    <p>Monetize any video instantly and for free. Easily allow users to send you sats. </p> 
+	<p>Liotta laugh and let the sats flow.</p><br>
+
+	<form action="/wrapper" method="POST" style="float:center;">
+        <label>LN Address:</label>
+        <input type="text" name="ln_address" placeholder="me@getalby.com"><br><br>
+
+        <label>Embed Link:</label>
+        <input type="text" name="link" placeholder="youtube.com/myvideo"><br><br>
+
+        <button>SATS SATS SATS</button>
     </form>
 
-	<br><br>
-
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/COKhfMqL5IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<br>
-	<br>
-
-	<p color="white">BOOST OR STREAM SATS & LAUGH</p> <br>
-    <form action="/send" method="GET" style="float:left;">
-    	<input type="submit" value="1 SAT" name="send_btc">
-    </form>
-	<form action="/send" method="GET" style="float:left;">
-    	<input type="submit" value="5 SATS" name="send_btc">
-    </form>
-	<form action="/send" method="GET" style="float:left;">
-    	<input type="submit" value="10 SATS" name="send_btc">
-    </form>
-	<form action="/stream" method="GET" style="float:right;">
-    	<input type="submit" value="STREAM SATS" name="send_btc">
-    </form>
-	<form action="/webln" method="GET" style="float:right;">
-    	<input type="submit" value="WEBLN TEST" name="send_btc">
-    </form>
-
-	<!--import { requestProvider } from 'webln';
-
-	WebLN.requestProvider(/* ... */);
-
-	try {
-	  const webln = await requestProvider();
-	  // Now you can call all of the webln.* methods
-	}
-	catch(err) {
-	  // Tell the user what went wrong
-	  alert(err.message);
-	} -->
-	
 		
 </body>
 </html>
