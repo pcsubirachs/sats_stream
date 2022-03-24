@@ -7,6 +7,11 @@
 			integrity="sha384-mTReBqbhPO7ljQeIoFaD1NYS2KiYMwFJhUNpdwLj+VIuhhjvHQlZ1XpwzAvd93nQ" 
 			crossorigin="anonymous">
 		</script>
+        <script 
+            src="https://unpkg.com/pay-with-ln@0.1.0/dist/pay-with-ln.js" 
+            integrity="sha384-Uid8n0M8dpAoE1SOQOXOcMfDy9hvqtSp+A3xMFilQn+Z6fxsnmCayPVP8na5vdAv"
+            crossorigin="anonymous">
+        </script>
 	</head>
 <body>
 
@@ -19,13 +24,24 @@
 	<p color="white">LOGIN TO BOOST OR STREAM SATS</p> <br>
 
      <!-- have end user connect to alby-->
-     <form action="/open_alby" method="GET" style="float:center;">
+     <!--<form action="/open_alby" method="GET" style="float:center;">
     	<input type="submit" value="LOGIN WITH LIGHTNING" name="send_btc">
-    </form><br><br>
+    </form>-->
+
+    <button>
+        <pay-with-ln payment-request="lnbc1pw2uhctpp5p7e6ru568ry6w9ecxn0288gdt65ehdxqmaqchn0xnye09vxvu5qsdqjgdhkven9v5s8g6tsyycqzpgxq97zvuqfh2drun3d9p57nxzj6rmhupnqly84kkte0vxjgqmsz99y2g4aat58xpnc9967kkycnfylx4vrc94ns87cym2y3uu7evc3ecaq26qjhgpeyv6wr"></pay-with-ln>
+    </button>
+    
+    <br><br>
 
     <form action="/send_1" method="GET" style="float:left;">
     	<input type="submit" value="1 SAT" name="send_btc">
+        <script src="web_app/static/assets/js/1_sat.js"></script>
     </form>
+
+    <button value="1 SAT">
+        <script src="static/assets/js/1_sat.js"></script>
+    </button>
 
 	<form action="/send_5" method="GET" style="float:left;">
     	<input type="submit" value="5 SATS" name="send_btc">
@@ -39,19 +55,26 @@
     	<input type="submit" value="STREAM SATS" name="send_btc">
     </form>
 
-	<!--import { requestProvider } from 'webln';
+	<!-- 
+		this code can now be replaced with 
+			import { requestProvider } from 'webln';
+			requestProvider(/* ... */);
+		this code
 
-	WebLN.requestProvider(/* ... */);
+		WebLN.requestProvider(/* ... */);
 
-	try {
-	  const webln = await requestProvider();
-	  // Now you can call all of the webln.* methods
-	}
-	catch(err) {
-	  // Tell the user what went wrong
-	  alert(err.message);
-	} -->
-	
+	-->
+
+    import { requestProvider } from 'webln';
+
+    try {
+      const webln = await requestProvider();
+      // Now you can call all of the webln.* methods
+    }
+    catch(err) {
+      // Tell the user what went wrong
+      alert(err.message);
+    }
 		
 </body>
 </html>
