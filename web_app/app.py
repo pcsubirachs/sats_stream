@@ -1,27 +1,28 @@
 import os
 from flask import Flask
-#from dotenv import load_dotenv
-#from flask_sqlalchemy import SQLAlchemy
-#from flask_migrate import Migrate
+from dotenv import load_dotenv
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 
 from web_app.routes import sats
-#from web_app.models import db, migrate, User, Wallet 
-#from flask_qrcode import QRcode
-#from flask_sqlalchemy import SQLAlchemy
+from web_app.models import db, migrate, User
+from flask_sqlalchemy import SQLAlchemy
 
 
-#load_dotenv()
+load_dotenv()
 
-#DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
+DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
 
 def create_app():
     # initializing new flask app
     app = Flask(__name__)
     # just an example
     #app.config["CUSTOM_VAR"] = 5
-    #app.config["SQLALCHEMY_DATABASE_URI"] = DATABASE_URL
-    #app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+    app.config["SQLALCHEMY_DATABASE_URI"] = DATABASE_URL
+    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     
+    db.init_app(app)
+    migrate.init_app(app, db)
     # linking to routes.py page via the "routes" variable
     app.register_blueprint(sats)
     

@@ -4,6 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "==19.10b0"
+flake8 = "*"
+flake8-mypy = "*"
+pytest = "*"
+pytest-cov = "*"
+requests = "*"
+twine = "*"
 
 [packages]
 flask = "*"
@@ -12,6 +19,10 @@ gunicorn = "*"
 python-dotenv = "*"
 jinja2 = "*"
 mnemonic = "*"
+lnurl = "*"
+requests = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
 
 [requires]
 python_version = "3.8"
