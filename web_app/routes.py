@@ -141,6 +141,10 @@ def test():
 
     return render_template('test.html', myUser=myUser, oneUser=oneUser)
 
+@sats.route("/test_pay", methods=['POST', 'GET'])
+def test_pay():
+    return render_template('test_pay.html')
+
 #@sats.route("/test", methods=['POST', 'GET'])
 #def test():
 #    print("bech32: ", bech32)
