@@ -8,10 +8,18 @@ from web_app.routes import sats
 from web_app.models import db, migrate, User
 from flask_sqlalchemy import SQLAlchemy
 
+import os
+import re
 
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
+
+# heroku cleanup
+uri = os.getenv("DATABASE_URL")  # or other relevant config var
+if uri.startswith("postgres://"):
+    uri = uri.replace("postgres://", "postgresql://", 1)
+# rest of connection code using the connection string `uri`
 
 def create_app():
     # initializing new flask app
