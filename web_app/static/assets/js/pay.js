@@ -46,7 +46,7 @@ document.getElementById("unlock-button").addEventListener("click", (event) => {
   event.preventDefault();
   event.target.innerHTML = "loading...";
   pay();
-  event.target.innerHTML = "Connecting..."
+  event.target.innerHTML = "Boost Mode..."
 });
 
 // 1 SAT

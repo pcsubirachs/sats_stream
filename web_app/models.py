@@ -17,6 +17,8 @@ from flask_migrate import Migrate
 #3.)
 # flask db upgrade
 
+# for PostgreSQL connection, follow this link https://tableplus.com/blog/2018/09/getting-started-with-postgresql-on-mac.html
+
 db = SQLAlchemy()
 migrate = Migrate()
 

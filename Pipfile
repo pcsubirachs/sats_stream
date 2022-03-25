@@ -24,6 +24,7 @@ requests = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 hashids = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.8"
