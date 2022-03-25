@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SATSBUSTER</title>
+		<link rel="stylesheet" href="static/assets/css/main.css">
+		<script src="https://unpkg.com/webln@0.2.0/dist/webln.min.js" 
+			integrity="sha384-mTReBqbhPO7ljQeIoFaD1NYS2KiYMwFJhUNpdwLj+VIuhhjvHQlZ1XpwzAvd93nQ" 
+			crossorigin="anonymous">
+		</script>
+        <script 
+            src="https://unpkg.com/pay-with-ln@0.1.0/dist/pay-with-ln.js" 
+            integrity="sha384-Uid8n0M8dpAoE1SOQOXOcMfDy9hvqtSp+A3xMFilQn+Z6fxsnmCayPVP8na5vdAv"
+            crossorigin="anonymous">
+        </script>
+	</head>
+<body>
+
+	<h2> STREAM SATS, I DARE YA! </h2>
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/COKhfMqL5IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
+	<br>
+
+	<p color="white">LOGIN TO BOOST OR STREAM SATS</p> <br>
+
+     <!-- have end user connect to alby-->
+     <!--<form action="/open_alby" method="GET" style="float:center;">
+    	<input type="submit" value="LOGIN WITH LIGHTNING" name="send_btc">
+    </form>-->
+
+    <button>
+        <pay-with-ln payment-request="lnbc1pw2uhctpp5p7e6ru568ry6w9ecxn0288gdt65ehdxqmaqchn0xnye09vxvu5qsdqjgdhkven9v5s8g6tsyycqzpgxq97zvuqfh2drun3d9p57nxzj6rmhupnqly84kkte0vxjgqmsz99y2g4aat58xpnc9967kkycnfylx4vrc94ns87cym2y3uu7evc3ecaq26qjhgpeyv6wr"></pay-with-ln>
+    </button>
+    
+    <br><br>
+
+    
+    <input type="submit" value="1 SAT" name="1_sat">
+    <input type="submit" value="5 SATS" name="5_sats">
+    <input type="submit" value="10 SATS" name="10_sats">
+    <button value="YO">
+        <script src="web_app/static/assets/js/1_sat.js"></script>
+    </button>
+
+    <header>
+        <p>
+            <a href="#" id="1-sat-button"><i>1 SAT &rarr;</i></a>
+        </p>
+        <p>
+            <a href="#" id="unlock-button"><b>Unlock &rarr;</b></a>
+        </p>
+        <p>
+            <a href="#" id="stream-button"><i>Stream &rarr;</i></a>
+        </p>
+
+        <p id="preimage"></p>
+        <p id="payment-hash"></p>
+        <p id="payment-request"></p>
+        <div id="success"></div>
+    </header>
+
+	<!-- 
+		this code can now be replaced with 
+			import { requestProvider } from 'webln';
+			requestProvider(/* ... */);
+		this code
+
+		WebLN.requestProvider(/* ... */);
+
+	
+
+    import { requestProvider } from 'webln';
+
+    try {
+      const webln = await requestProvider();
+      // Now you can call all of the webln.* methods
+    }
+    catch(err) {
+      // Tell the user what went wrong
+      alert(err.message);
+    }
+    
+    -->
+		
+</body>
+<script src="static/assets/js/lnurl-pay.js"></script>
+
+<script src="static/assets/js/pay.js"></script>
+
+</html>

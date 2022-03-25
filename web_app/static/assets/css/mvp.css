@@ -31,7 +31,7 @@
   :root {
     --color: #0097fc;
     --color-accent: #0097fc4f;
-    --color-bg: #333;
+    --color-bg: rgb(0, 0, 0);
     --color-bg-secondary: #555;
     --color-link: #0097fc;
     --color-secondary: #e20de9;

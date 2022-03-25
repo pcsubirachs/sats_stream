@@ -4,93 +4,17 @@ import lnurl
 from lnurl import Lnurl, LnurlResponse, LnurlWithdrawResponse
 from flask_migrate import Migrate
 from web_app.models import User, db
-
+from hashids import Hashids
 
 
 # initialize to blueprint
 sats = Blueprint("sats", __name__)
-
-
-## LNURL TESTING
-
-# encode
-ln_url = lnurl.encode('https://service.io/?q=3fc3645b439ce8e7')
-bech32 = ln_url.bech32  # "LNURL1DP68GURN8GHJ7UM9WFMXJCM99E5K7TELWY7NXENRXVMRGDTZXSENJCM98PJNWXQ96S9"
-bech32_hrp = ln_url.bech32.hrp  # "lnurl"
-url = ln_url.url  # "https://service.io/?q=3fc3645b439ce8e7"
-host = ln_url.url.host  # "service.io"
-base = ln_url.url.base  # "https://service.io/"
-query = ln_url.url.query  # "q=3fc3645b439ce8e7"
-query_params = ln_url.url.query_params  # {"q": "3fc3645b439ce8e7"}
-#handle = ln_url.handle('lightning:LNURL1DP68GURN8GHJ7MRWW4EXCTNZD9NHXATW9EU8J730D3H82UNV94CXZ7FLWDJHXUMFDAHR6V33XCUNSVE38QV6UF')
-
-# decode
-ln_url_d = lnurl.decode(bech32)
-ln_url_d_scheme = ln_url_d.scheme
-ln_url_d_host = ln_url_d.host
-ln_url_d_tld = ln_url_d.tld
-ln_url_d_host_type = ln_url_d.host_type
-ln_url_d_path = ln_url_d.path
-ln_url_d_query = ln_url_d.query
-
-# building your own LNURL responses example
-
-res = LnurlWithdrawResponse(
-    callback="https://lnurl.bigsun.xyz/lnurl-withdraw/callback/9702808",
-    k1="38d304051c1b76dcd8c5ee17ee15ff0ebc02090c0afbc6c98100adfa3f920874",
-    min_withdrawable=551000,
-    max_withdrawable=551000,
-    default_description="sample withdraw",
-)
-res_json = res.json()  # str
-res_dict = res.dict()  # dict
-
-# parsing (not working)
-
-#lnurl = Lnurl('LNURL1DP68GURN8GHJ7MRWW4EXCTNZD9NHXATW9EU8J730D3H82UNV94MKJARGV3EXZAELWDJHXUMFDAHR6WFHXQERSVPCA649RV')
-#lnurl_r = Lnurl(bech32)
-#r = requests.get(lnurl_r.url)
-#
-#res = LnurlResponse.from_dict(r.json())  # LnurlPayResponse
-#res_ok = res.ok  # bool
-#res_max_send = res.max_sendable  # int
-#res_max_sats = res.max_sats  # int
-#res_base = res.callback.base  # str
-#res_q_params = res.callback.query_params # dict
-#res_meta1 = res.metadata  # str
-#res_meta2 = res.metadata.list()  # list
-#res_meta3 = res.metadata.text  # str
-#res_image = res.metadata.images  # list
-
 
 # index home page
 # make it super simple
 @sats.route("/", methods=['POST', 'GET'])
 def index():
     return render_template('index.html')
-
-@sats.route("/webln", methods=['POST', 'GET'])
-def webln():
-    return render_template('test.html')
-
-@sats.route("/create_link", methods=['POST', 'GET'])
-def create():
-    return render_template('create_link.html')
-
-# test payments
-@sats.route("/pay", methods=['POST', 'GET'])
-def pay():
-    # get element by ID from pay page
-
-    # pass in invoice, params, successAction, validatePreimage
-        # wait for Lnurl.requestInvoice
-            # set lnUrl0Address
-            # token amount in sats
-            # comment field
-
-    # if statements
-    
-    return render_template('pay.html')
 
 #add a new user route
 @sats.route("/wrapper", methods=["POST"])
@@ -104,22 +28,35 @@ def create_user():
         link = request.form["link"]
         print(ln_address)
         print(link)
-        db.session.add(User(ln_address=ln_address, link=link))
-        #db.session.add(User(link=link))
+
+        # create uniquie link
+        pk = 123 # Your object's id
+        domain = 'satsbuster.herokuapp.com' # Your domain
+
+        # use the user name and youtube link to create unique link
+        hashids = Hashids(salt=ln_address + link, min_length=6)
+        link_id = hashids.encode(pk)
+        unique_link = 'https://{domain}/{link_id}'.format(domain=domain, link_id=link_id)
+
+        print(unique_link)
+
+        db.session.add(User(ln_address=ln_address, link=link, unique_link=unique_link))
         db.session.commit()
-        message = jsonify({"message": "CREATED OK", "ln_address": ln_address, "embed link": link})
+
+        message = jsonify({"message": "CREATED OK", "ln_address": ln_address, "embed link": link, "unique link": unique_link})
         error_message = jsonify({"message": "OOPS PLEASE SPECIFY A NAME!"})
+        
         print(message)
         print(error_message)
 
-        return render_template('wrapper.html')
+        lastUser = User.query.order_by(-User.id).first()
+
+        return render_template('wrapper.html', lastUser=lastUser)
     else:
         return render_template('error.html')
 
 
 # testing
-
-from sqlalchemy import asc
 
 @sats.route("/test", methods=['POST', 'GET'])
 def test():
@@ -138,8 +75,9 @@ def test():
     myUser = User.query.all()
     print(myUser)
     oneUser = User.query.filter_by(ln_address="yami").first()
+    lastUser = User.query.order_by(-User.id).first()
 
-    return render_template('test.html', myUser=myUser, oneUser=oneUser)
+    return render_template('test.html', myUser=myUser, oneUser=oneUser, lastUser=lastUser)
 
 @sats.route("/test_pay", methods=['POST', 'GET'])
 def test_pay():

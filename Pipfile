@@ -23,6 +23,7 @@ lnurl = "*"
 requests = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
+hashids = "*"
 
 [requires]
 python_version = "3.8"
