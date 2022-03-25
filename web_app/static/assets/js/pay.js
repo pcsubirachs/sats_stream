@@ -6,17 +6,18 @@ const ln_address = document.getElementById("ln-address").value;
 
 // initial payment to enable payments with Alby
 async function pay() {
-  const comment = document.getElementById("message").value;
+  //const comment = document.getElementById("message").value;
 
   // https://github.com/dolcalmi/lnurl-pay
   // can use a simple lnurl request invoice
   // pass in lnurl or ln address, how many sats you want to send, and if you want to send a comment
   const { invoice, params, successAction, validatePreimage } =
     await LnurlPay.requestInvoice({
+      // this needs to grab the address of the creator from the database, or from the html page.. TBD
       lnUrlOrAddress: "subirachs@getalby.com",
       //lnUrlOrAddress: ln_address,
       tokens: 1,
-      comment: comment,
+      //comment: comment,
     });
   
   // call webln
@@ -32,7 +33,7 @@ async function pay() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("success").append("yay, paid -- ");
+      document.getElementById("connect_success").append("1 SAT has been sent to initialize connection! Sending sats is now enabled.");
     } else {
       alert("fail");
     }
@@ -45,23 +46,20 @@ document.getElementById("unlock-button").addEventListener("click", (event) => {
   event.preventDefault();
   event.target.innerHTML = "loading...";
   pay();
-  event.target.innerHTML = "BOOST BOLTS BELOW!"
+  event.target.innerHTML = "Connecting..."
 });
 
 // 1 SAT
 async function pay_1_sat() {
-  const comment = document.getElementById("message").value;
 
   // https://github.com/dolcalmi/lnurl-pay
   // can use a simple lnurl request invoice
   // pass in lnurl or ln address, how many sats you want to send, and if you want to send a comment
   const { invoice, params, successAction, validatePreimage } =
     await LnurlPay.requestInvoice({
-      // this needs to grab the address of the poster from the database
-      // not sure how to do this yet
+      // this needs to grab the address of the creator from the database, TBD
       lnUrlOrAddress: "subirachs@getalby.com",
       tokens: 1,
-      comment: comment,
     });
   
   // call webln
@@ -77,7 +75,7 @@ async function pay_1_sat() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("success").append("** BOOSTED 1 SAT! **");
+      document.getElementById("success").append(" BOOSTED 1 SAT! ");
     } else {
       alert("fail");
     }
@@ -88,25 +86,21 @@ async function pay_1_sat() {
 
 document.getElementById("one-sat-button").addEventListener("click", (event) => {
   event.preventDefault();
-  event.target.innerHTML = "BOOSTED!";
+  //event.target.innerHTML = "BOOSTED!";
   pay_1_sat();
-  event.target.innerHTML = "1 SAT";
 });
 
 // 5 SATS
 async function pay_five_sats() {
-  const comment = document.getElementById("message").value;
 
   // https://github.com/dolcalmi/lnurl-pay
   // can use a simple lnurl request invoice
   // pass in lnurl or ln address, how many sats you want to send, and if you want to send a comment
   const { invoice, params, successAction, validatePreimage } =
     await LnurlPay.requestInvoice({
-      // this needs to grab the address of the poster from the database
-      // not sure how to do this yet
+      // this needs to grab the address of the creator from the database, TBD
       lnUrlOrAddress: "subirachs@getalby.com",
       tokens: 5,
-      comment: comment,
     });
   
   // call webln
@@ -122,7 +116,7 @@ async function pay_five_sats() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("success").append("** BOOSTED 5 SATS! **");
+      document.getElementById("success").append(" BOOSTED 5 SATS! ");
     } else {
       alert("fail");
     }
@@ -133,13 +127,12 @@ async function pay_five_sats() {
 
 document.getElementById("five-sats-button").addEventListener("click", (event) => {
   event.preventDefault();
-  event.target.innerHTML = "BOOSTED!";
+  //event.target.innerHTML = "BOOSTED!";
   pay_five_sats();
 });
 
 // 10 SATS
 async function pay_ten_sats() {
-  const comment = document.getElementById("message").value;
 
   // https://github.com/dolcalmi/lnurl-pay
   // can use a simple lnurl request invoice
@@ -150,7 +143,6 @@ async function pay_ten_sats() {
       // not sure how to do this yet
       lnUrlOrAddress: "subirachs@getalby.com",
       tokens: 10,
-      comment: comment,
     });
   
   // call webln
@@ -166,7 +158,7 @@ async function pay_ten_sats() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("success").append("** BOOSTED 10 SATS! **");
+      document.getElementById("success").append(" BOOSTED 10 SATS! ");
     } else {
       alert("fail");
     }
@@ -177,7 +169,7 @@ async function pay_ten_sats() {
 
 document.getElementById("ten-sats-button").addEventListener("click", (event) => {
   event.preventDefault();
-  event.target.innerHTML = "BOOSTED!";
+  //event.target.innerHTML = "BOOSTED!";
   pay_ten_sats();
 });
 

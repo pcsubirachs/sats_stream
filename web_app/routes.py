@@ -31,7 +31,8 @@ def create_user():
 
         # create uniquie link
         pk = 123 # Your object's id
-        domain = 'satsbuster.herokuapp.com' # Your domain
+        # domain = satsbuster.herokuapp.com
+        domain = 'www.boltbooster.com' # Your domain
 
         # use the user name and youtube link to create unique link
         hashids = Hashids(salt=ln_address + link, min_length=6)
