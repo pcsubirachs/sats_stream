@@ -13,7 +13,7 @@ import re
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
+DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS").replace("postgres://", "postgresql://", 1) 
 
 # heroku cleanup
 #SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
