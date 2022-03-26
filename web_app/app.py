@@ -31,9 +31,9 @@ def create_app():
     
     db.init_app(app)
     migrate.init_app(app, db)
+    
     # linking to routes.py page via the "routes" variable
     app.register_blueprint(sats)
     
     return app
-
-db.create_all()
+    
