@@ -16,7 +16,7 @@ load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
 
 # heroku cleanup
-SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
+#SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
 
 def create_app():
     # initializing new flask app
