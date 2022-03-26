@@ -3,6 +3,6 @@
 # type in python db_create.py
 # fin
 
-from web_app.models import db
+from web_app import db
 
 db.create_all()
