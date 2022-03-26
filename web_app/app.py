@@ -35,3 +35,5 @@ def create_app():
     app.register_blueprint(sats)
     
     return app
+
+db.create_all()
