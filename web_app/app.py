@@ -8,13 +8,10 @@ from web_app.routes import sats
 from web_app.models import db, migrate, User
 from flask_sqlalchemy import SQLAlchemy
 
-import os
-import re
-
 load_dotenv()
 
-#DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
-DATABASE_URL = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
+DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
+#DATABASE_URL = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
 
 # heroku cleanup
 #SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
@@ -26,8 +23,6 @@ def create_app():
     #app.config["CUSTOM_VAR"] = 5
     app.config["SQLALCHEMY_DATABASE_URI"] = DATABASE_URL
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-
-    #SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
     
     db.init_app(app)
     migrate.init_app(app, db)
@@ -36,4 +31,3 @@ def create_app():
     app.register_blueprint(sats)
     
     return app
-    

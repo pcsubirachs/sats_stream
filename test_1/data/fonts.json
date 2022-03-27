@@ -1,0 +1,1639 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2022-03-27T00:04:35.774Z",
+  "entities": [
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "07726d7c-e1ec-4e25-b9fe-9c44558e5e1b",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "ff1c294f-11bf-4911-a9a5-008a61c86cab",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "07726d7c-e1ec-4e25-b9fe-9c44558e5e1b",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "07726d7c-e1ec-4e25-b9fe-9c44558e5e1b",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "07726d7c-e1ec-4e25-b9fe-9c44558e5e1b",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "6d16d294-819d-430f-8087-5d95ba150c65",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "6601d761-c3d6-435b-b252-bc439ce7b5d6",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "6d16d294-819d-430f-8087-5d95ba150c65",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "6d16d294-819d-430f-8087-5d95ba150c65",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "6d16d294-819d-430f-8087-5d95ba150c65",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "539a6b5a-7282-4ef0-9a80-fc1f0d306757",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "85bd2d00-00b0-42c6-b1d6-759e029fbfd9",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "539a6b5a-7282-4ef0-9a80-fc1f0d306757",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "539a6b5a-7282-4ef0-9a80-fc1f0d306757",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "539a6b5a-7282-4ef0-9a80-fc1f0d306757",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "06903036-d7a6-442d-bfa2-ab24bb6ae423",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "3b6a7cc4-482e-4ab4-9a72-4f7d115fde41",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "06903036-d7a6-442d-bfa2-ab24bb6ae423",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "06903036-d7a6-442d-bfa2-ab24bb6ae423",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "06903036-d7a6-442d-bfa2-ab24bb6ae423",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "19d41df9-07ba-46eb-9c4d-37a90f54734b",
+      "name": "All Round Gothic — 50pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "e49190ee-8ffc-43b4-bb9b-7dc79e7927bc",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "19d41df9-07ba-46eb-9c4d-37a90f54734b",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "19d41df9-07ba-46eb-9c4d-37a90f54734b",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "19d41df9-07ba-46eb-9c4d-37a90f54734b",
+          "type": "size",
+          "value": "50",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "f7c52f55-5486-4764-abd0-a5efe32fed6e",
+      "name": "All Round Gothic — 65pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "59d20e44-2f22-462d-ad9f-ab9fdb346edf",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "f7c52f55-5486-4764-abd0-a5efe32fed6e",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "f7c52f55-5486-4764-abd0-a5efe32fed6e",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "f7c52f55-5486-4764-abd0-a5efe32fed6e",
+          "type": "size",
+          "value": "65",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "9dc9efb9-9333-4ce5-822e-4b38c91a1c99",
+      "name": "All Round Gothic — 22pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "f4733bd6-be3a-4561-af0a-e0c0a2af8470",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "9dc9efb9-9333-4ce5-822e-4b38c91a1c99",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "9dc9efb9-9333-4ce5-822e-4b38c91a1c99",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "9dc9efb9-9333-4ce5-822e-4b38c91a1c99",
+          "type": "size",
+          "value": "22",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "fce351e0-a31c-4dd0-bd9e-f96e2f3ecc65",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "77d423af-3dbc-48dc-a011-ef83b0e33687",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "fce351e0-a31c-4dd0-bd9e-f96e2f3ecc65",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "fce351e0-a31c-4dd0-bd9e-f96e2f3ecc65",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "fce351e0-a31c-4dd0-bd9e-f96e2f3ecc65",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "cec698c9-640a-4b0d-b218-4afb0d68b889",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "f0aaa97b-69e3-4ccd-8a17-1253f7ae30e5",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "cec698c9-640a-4b0d-b218-4afb0d68b889",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "cec698c9-640a-4b0d-b218-4afb0d68b889",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "cec698c9-640a-4b0d-b218-4afb0d68b889",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "231eb91c-95dc-4051-9dc1-940f6ba9d826",
+      "name": "Nasalization — 35pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "4121b9b8-559a-49cc-a5cd-98c6097db88e",
+        "last_sync": "2022-03-27T00:18:32.160Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "231eb91c-95dc-4051-9dc1-940f6ba9d826",
+          "type": "custom",
+          "value": "Nasalization",
+          "key": "family"
+        },
+        {
+          "id": "231eb91c-95dc-4051-9dc1-940f6ba9d826",
+          "type": "custom",
+          "value": "Regular",
+          "key": "weight"
+        },
+        {
+          "id": "231eb91c-95dc-4051-9dc1-940f6ba9d826",
+          "type": "size",
+          "value": "35",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "1d9e8c37-7955-439a-a9af-4d8c15f955be",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "d4fe715d-d429-49ab-b388-1ecff9443d18",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "1d9e8c37-7955-439a-a9af-4d8c15f955be",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "1d9e8c37-7955-439a-a9af-4d8c15f955be",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "1d9e8c37-7955-439a-a9af-4d8c15f955be",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "a7f566bc-4a8d-414b-af9e-6b32cb12ad09",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "70939b10-5d76-411d-9317-9e842c4f7d0f",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "a7f566bc-4a8d-414b-af9e-6b32cb12ad09",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "a7f566bc-4a8d-414b-af9e-6b32cb12ad09",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "a7f566bc-4a8d-414b-af9e-6b32cb12ad09",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "f53b248f-a94b-47c9-ac3b-591a63ba565f",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "5fef6bfc-20be-4095-9414-5b6308f34472",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "f53b248f-a94b-47c9-ac3b-591a63ba565f",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "f53b248f-a94b-47c9-ac3b-591a63ba565f",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "f53b248f-a94b-47c9-ac3b-591a63ba565f",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "3f27e367-e87f-4f50-96cd-c6d83041acb3",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "e130787b-6ec4-4bc3-ab53-192d92b89ba7",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "3f27e367-e87f-4f50-96cd-c6d83041acb3",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "3f27e367-e87f-4f50-96cd-c6d83041acb3",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "3f27e367-e87f-4f50-96cd-c6d83041acb3",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "314b7bb4-59d3-43d1-a51c-d2648e49107c",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "14d3071e-de9e-4d3c-b9fc-5e5e28d780f6",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "314b7bb4-59d3-43d1-a51c-d2648e49107c",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "314b7bb4-59d3-43d1-a51c-d2648e49107c",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "314b7bb4-59d3-43d1-a51c-d2648e49107c",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "688ed86d-5914-434a-a3b3-839d66f6ffbc",
+      "name": "Nasalization — 35pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "8ec1aa88-8b03-452b-bdab-ac5d58256fda",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "688ed86d-5914-434a-a3b3-839d66f6ffbc",
+          "type": "custom",
+          "value": "Nasalization",
+          "key": "family"
+        },
+        {
+          "id": "688ed86d-5914-434a-a3b3-839d66f6ffbc",
+          "type": "custom",
+          "value": "Regular",
+          "key": "weight"
+        },
+        {
+          "id": "688ed86d-5914-434a-a3b3-839d66f6ffbc",
+          "type": "size",
+          "value": "35",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "97b99481-d734-4d8e-bf3b-ef3b6732789b",
+      "name": "All Round Gothic — 18pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "011a1a63-f3aa-49b2-aefa-d9a617f3879f",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "97b99481-d734-4d8e-bf3b-ef3b6732789b",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "97b99481-d734-4d8e-bf3b-ef3b6732789b",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "97b99481-d734-4d8e-bf3b-ef3b6732789b",
+          "type": "size",
+          "value": "18",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "59884fc6-5f6c-4568-a09b-568076013997",
+      "name": "All Round Gothic — 22pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "d6f038c1-7c70-4569-b97a-6fb4fd494823",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "59884fc6-5f6c-4568-a09b-568076013997",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "59884fc6-5f6c-4568-a09b-568076013997",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "59884fc6-5f6c-4568-a09b-568076013997",
+          "type": "size",
+          "value": "22",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "11b45222-2479-427b-a0df-3c8f5d287a4c",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "4df53ddf-f172-45d0-876d-00cc34eac106",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "11b45222-2479-427b-a0df-3c8f5d287a4c",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "11b45222-2479-427b-a0df-3c8f5d287a4c",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "11b45222-2479-427b-a0df-3c8f5d287a4c",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "20129bad-50ef-4a3b-8747-d125bf9a05d8",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "d4f29bf4-f65f-4c8e-8867-dbbe21111da0",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "20129bad-50ef-4a3b-8747-d125bf9a05d8",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "20129bad-50ef-4a3b-8747-d125bf9a05d8",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "20129bad-50ef-4a3b-8747-d125bf9a05d8",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "73466db0-7f96-4e4d-aab8-955aece26b0f",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "ff5f6c87-f141-4dc1-aa59-45f3eb39dcc7",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "73466db0-7f96-4e4d-aab8-955aece26b0f",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "73466db0-7f96-4e4d-aab8-955aece26b0f",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "73466db0-7f96-4e4d-aab8-955aece26b0f",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "2f406f44-baef-4f1b-ad58-c840fadb509d",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "efaacb40-f8b8-4c02-a0e8-2c5207fd4cd3",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "2f406f44-baef-4f1b-ad58-c840fadb509d",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "2f406f44-baef-4f1b-ad58-c840fadb509d",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "2f406f44-baef-4f1b-ad58-c840fadb509d",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "0a4d8d40-2aea-421e-84de-ad9e5b2983f8",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "fd1dfd41-7983-4ac1-adcb-3b16a6093004",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "0a4d8d40-2aea-421e-84de-ad9e5b2983f8",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "0a4d8d40-2aea-421e-84de-ad9e5b2983f8",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "0a4d8d40-2aea-421e-84de-ad9e5b2983f8",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "d0b9da9c-59ae-436a-911b-bb3777559eed",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/59dd51ef-ee0d-4f79-5ce8-b4a88a53fbc7",
+        "id": "392e77cf-c948-49d5-8b90-6d3f559e6ac0",
+        "last_sync": "2022-03-27T00:18:32.161Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "d0b9da9c-59ae-436a-911b-bb3777559eed",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "d0b9da9c-59ae-436a-911b-bb3777559eed",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "d0b9da9c-59ae-436a-911b-bb3777559eed",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "b233b887-00d7-4655-abe2-191c7ff21772",
+      "name": "All Round Gothic — 22pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "77281e75-4a39-4573-95a5-cdec9c61e751",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "b233b887-00d7-4655-abe2-191c7ff21772",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "b233b887-00d7-4655-abe2-191c7ff21772",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "b233b887-00d7-4655-abe2-191c7ff21772",
+          "type": "size",
+          "value": "22",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "f0bceda4-ed7f-430b-8cfa-c09aa0ef0342",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "a804f538-4799-4c16-b958-cc72809529a4",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "f0bceda4-ed7f-430b-8cfa-c09aa0ef0342",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "f0bceda4-ed7f-430b-8cfa-c09aa0ef0342",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "f0bceda4-ed7f-430b-8cfa-c09aa0ef0342",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "79f309e2-9be5-43e1-8bd7-8aa6f3fcef3f",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "9ad736db-9868-4660-9acf-04561311d0bf",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "79f309e2-9be5-43e1-8bd7-8aa6f3fcef3f",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "79f309e2-9be5-43e1-8bd7-8aa6f3fcef3f",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "79f309e2-9be5-43e1-8bd7-8aa6f3fcef3f",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "b6b3a41c-3c52-434c-be9d-0fc2b2fe4618",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "e853be6f-c5e6-4645-b5c5-1fb044b96b57",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "b6b3a41c-3c52-434c-be9d-0fc2b2fe4618",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "b6b3a41c-3c52-434c-be9d-0fc2b2fe4618",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "b6b3a41c-3c52-434c-be9d-0fc2b2fe4618",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "db5de33f-834a-4328-9af6-fe6ed0a0150f",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "ecb1c353-c14d-4ed6-954e-16af37e0f362",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "db5de33f-834a-4328-9af6-fe6ed0a0150f",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "db5de33f-834a-4328-9af6-fe6ed0a0150f",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "db5de33f-834a-4328-9af6-fe6ed0a0150f",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "086d0dbc-0119-4aca-9d3a-a5b72375ef64",
+      "name": "All Round Gothic — 50pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "fc852c75-3e49-4824-8927-b7b584dfce53",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "086d0dbc-0119-4aca-9d3a-a5b72375ef64",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "086d0dbc-0119-4aca-9d3a-a5b72375ef64",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "086d0dbc-0119-4aca-9d3a-a5b72375ef64",
+          "type": "size",
+          "value": "50",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "1171fe09-c651-464c-a35a-80b74b650589",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "d91a0db9-0100-4861-999e-01d44d224693",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "1171fe09-c651-464c-a35a-80b74b650589",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "1171fe09-c651-464c-a35a-80b74b650589",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "1171fe09-c651-464c-a35a-80b74b650589",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "edfdfbd5-fd8e-4a9f-8c81-4fe0c29bd673",
+      "name": "Nasalization — 35pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "8580223d-6a67-4886-bb1d-05467f8e2aff",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "edfdfbd5-fd8e-4a9f-8c81-4fe0c29bd673",
+          "type": "custom",
+          "value": "Nasalization",
+          "key": "family"
+        },
+        {
+          "id": "edfdfbd5-fd8e-4a9f-8c81-4fe0c29bd673",
+          "type": "custom",
+          "value": "Regular",
+          "key": "weight"
+        },
+        {
+          "id": "edfdfbd5-fd8e-4a9f-8c81-4fe0c29bd673",
+          "type": "size",
+          "value": "35",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "6abb05bf-2f1a-4af9-9d4f-852ad7319fea",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "b7f5d037-8e68-4248-8f5c-2f58b1e0c748",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "6abb05bf-2f1a-4af9-9d4f-852ad7319fea",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "6abb05bf-2f1a-4af9-9d4f-852ad7319fea",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "6abb05bf-2f1a-4af9-9d4f-852ad7319fea",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "1a6c9053-059f-47bb-90af-4f732c6d052b",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "c058fa6a-8061-463f-844a-ea1762dfc699",
+        "last_sync": "2022-03-27T00:23:48.574Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "1a6c9053-059f-47bb-90af-4f732c6d052b",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "1a6c9053-059f-47bb-90af-4f732c6d052b",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "1a6c9053-059f-47bb-90af-4f732c6d052b",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "f2537091-febb-4091-a522-a73f9008420c",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "ae7246e1-6d4c-43ee-bab8-a2127c0f0242",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "f2537091-febb-4091-a522-a73f9008420c",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "f2537091-febb-4091-a522-a73f9008420c",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "f2537091-febb-4091-a522-a73f9008420c",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "9c8450a7-8292-4b47-9b0c-efface53b38a",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "f1505381-4c89-4de2-ad7c-fe55c80d9b53",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "9c8450a7-8292-4b47-9b0c-efface53b38a",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "9c8450a7-8292-4b47-9b0c-efface53b38a",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "9c8450a7-8292-4b47-9b0c-efface53b38a",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "534fc975-5a37-414e-b6a9-3cb5af3ac92a",
+      "name": "All Round Gothic — 65pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "e858c3f0-385f-4152-ab9b-7b1784592687",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "534fc975-5a37-414e-b6a9-3cb5af3ac92a",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "534fc975-5a37-414e-b6a9-3cb5af3ac92a",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "534fc975-5a37-414e-b6a9-3cb5af3ac92a",
+          "type": "size",
+          "value": "65",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "f722330b-0fdc-43ba-a8a1-35ecac78ee1d",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "4f3effb2-629c-4765-8714-fc9470ad1249",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "f722330b-0fdc-43ba-a8a1-35ecac78ee1d",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "f722330b-0fdc-43ba-a8a1-35ecac78ee1d",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "f722330b-0fdc-43ba-a8a1-35ecac78ee1d",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "889fd46f-3d6a-4828-bdc0-3e7fd949d803",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "8cf53ff5-faa3-4401-a6cc-86c7edb1ac30",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "889fd46f-3d6a-4828-bdc0-3e7fd949d803",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "889fd46f-3d6a-4828-bdc0-3e7fd949d803",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "889fd46f-3d6a-4828-bdc0-3e7fd949d803",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "876f2a5a-0170-4050-b811-61c8b1f09ef7",
+      "name": "All Round Gothic — 30pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "0f55f337-e02b-4180-9089-905f67073b6c",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "876f2a5a-0170-4050-b811-61c8b1f09ef7",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "876f2a5a-0170-4050-b811-61c8b1f09ef7",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "876f2a5a-0170-4050-b811-61c8b1f09ef7",
+          "type": "size",
+          "value": "30",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "698d991f-bbc8-4ea4-84de-50d57893029f",
+      "name": "Nasalization — 35pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "9dbb26f4-e684-481f-b33d-d21232758894",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "698d991f-bbc8-4ea4-84de-50d57893029f",
+          "type": "custom",
+          "value": "Nasalization",
+          "key": "family"
+        },
+        {
+          "id": "698d991f-bbc8-4ea4-84de-50d57893029f",
+          "type": "custom",
+          "value": "Regular",
+          "key": "weight"
+        },
+        {
+          "id": "698d991f-bbc8-4ea4-84de-50d57893029f",
+          "type": "size",
+          "value": "35",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "92d2e9b6-1a17-4799-b3d0-702d3b442d7d",
+      "name": "All Round Gothic — 18pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "f267e807-17b7-4712-834d-32f49ea14429",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "92d2e9b6-1a17-4799-b3d0-702d3b442d7d",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "92d2e9b6-1a17-4799-b3d0-702d3b442d7d",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "92d2e9b6-1a17-4799-b3d0-702d3b442d7d",
+          "type": "size",
+          "value": "18",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "316a2961-82dd-491a-9a81-e0d12fe1fd53",
+      "name": "All Round Gothic — 20pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "495be89e-aeca-4e33-ae49-665a22d9ecf8",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "316a2961-82dd-491a-9a81-e0d12fe1fd53",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "316a2961-82dd-491a-9a81-e0d12fe1fd53",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "316a2961-82dd-491a-9a81-e0d12fe1fd53",
+          "type": "size",
+          "value": "20",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "81abf1df-20cc-4dfb-a331-da869715f82e",
+      "name": "All Round Gothic — 22pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "2b8d4291-7e07-4a6a-a5f6-a6a95c209ded",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "81abf1df-20cc-4dfb-a331-da869715f82e",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "81abf1df-20cc-4dfb-a331-da869715f82e",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "81abf1df-20cc-4dfb-a331-da869715f82e",
+          "type": "size",
+          "value": "22",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "dec59e64-a2a9-4113-952a-91a6b3ca8794",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "77243e7b-fff7-4c06-8d16-c27b64e7c0cf",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "dec59e64-a2a9-4113-952a-91a6b3ca8794",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "dec59e64-a2a9-4113-952a-91a6b3ca8794",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "dec59e64-a2a9-4113-952a-91a6b3ca8794",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "59433f9a-1612-4f24-820c-69bec6e2c691",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "775ef706-aef0-4ce0-8319-45473945a53b",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "59433f9a-1612-4f24-820c-69bec6e2c691",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "59433f9a-1612-4f24-820c-69bec6e2c691",
+          "type": "custom",
+          "value": "Bold Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "59433f9a-1612-4f24-820c-69bec6e2c691",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "77bd332c-800d-49d2-823f-f4a26dbc1d23",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "c6bf1839-e999-46bd-9fad-010be72d6c45",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "77bd332c-800d-49d2-823f-f4a26dbc1d23",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "77bd332c-800d-49d2-823f-f4a26dbc1d23",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "77bd332c-800d-49d2-823f-f4a26dbc1d23",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "36df039d-2476-4f4e-89f4-9a51055aa1e1",
+      "name": "All Round Gothic — 25pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/78ad6902-ea15-42a2-7e8a-8313a004dd0d",
+        "id": "8c7c6da4-dcf4-48c1-91b2-102dd5f82a86",
+        "last_sync": "2022-03-27T00:23:48.575Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "36df039d-2476-4f4e-89f4-9a51055aa1e1",
+          "type": "custom",
+          "value": "All Round Gothic",
+          "key": "family"
+        },
+        {
+          "id": "36df039d-2476-4f4e-89f4-9a51055aa1e1",
+          "type": "custom",
+          "value": "Demi Oblique",
+          "key": "weight"
+        },
+        {
+          "id": "36df039d-2476-4f4e-89f4-9a51055aa1e1",
+          "type": "size",
+          "value": "25",
+          "key": "size"
+        }
+      ]
+    }
+  ]
+}

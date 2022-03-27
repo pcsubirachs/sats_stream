@@ -1,0 +1,25 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2022-03-27T00:04:35.774Z",
+  "entities": [
+    {
+      "id": "5f481f0b-273c-4362-90b2-d3e97cb212bd",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "sats-button",
+        "languages": {
+          "html": "<div class=\"sats-button\"></div>",
+          "css": ".sats-button{\n  color: X\n}"
+        }
+      },
+      "renditions": [],
+      "name": "button-for-sats",
+      "tags": [],
+      "last_updated": "2022-03-27T00:49:59.060Z",
+      "last_updated_by": ""
+    }
+  ]
+}

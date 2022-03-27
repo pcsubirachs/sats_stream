@@ -1,0 +1,96 @@
+{
+  "font": {
+    "All Round Gothic — 25pt": {
+      "family": {
+        "value": "All Round Gothic"
+      },
+      "weight": {
+        "value": "Demi Oblique"
+      }
+    },
+    "All Round Gothic — 20pt": {
+      "family": {
+        "value": "All Round Gothic"
+      },
+      "weight": {
+        "value": "Demi Oblique"
+      }
+    },
+    "All Round Gothic — 50pt": {
+      "family": {
+        "value": "All Round Gothic"
+      },
+      "weight": {
+        "value": "Bold Oblique"
+      }
+    },
+    "All Round Gothic — 65pt": {
+      "family": {
+        "value": "All Round Gothic"
+      },
+      "weight": {
+        "value": "Bold Oblique"
+      }
+    },
+    "All Round Gothic — 22pt": {
+      "family": {
+        "value": "All Round Gothic"
+      },
+      "weight": {
+        "value": "Demi Oblique"
+      }
+    },
+    "All Round Gothic — 30pt": {
+      "family": {
+        "value": "All Round Gothic"
+      },
+      "weight": {
+        "value": "Demi Oblique"
+      }
+    },
+    "Nasalization — 35pt": {
+      "family": {
+        "value": "Nasalization"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "All Round Gothic — 18pt": {
+      "family": {
+        "value": "All Round Gothic"
+      },
+      "weight": {
+        "value": "Demi Oblique"
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "All Round Gothic — 25pt": {
+        "value": "25"
+      },
+      "All Round Gothic — 20pt": {
+        "value": "20"
+      },
+      "All Round Gothic — 50pt": {
+        "value": "50"
+      },
+      "All Round Gothic — 65pt": {
+        "value": "65"
+      },
+      "All Round Gothic — 22pt": {
+        "value": "22"
+      },
+      "All Round Gothic — 30pt": {
+        "value": "30"
+      },
+      "Nasalization — 35pt": {
+        "value": "35"
+      },
+      "All Round Gothic — 18pt": {
+        "value": "18"
+      }
+    }
+  }
+}
