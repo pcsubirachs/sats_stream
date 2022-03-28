@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BOLT BOOSTER</title>
+		<link rel="stylesheet" href="static/assets/css/main.css">
+    <link rel="stylesheet" href="static/assets/css/variables.css">
+	</head>
+<body>
+    <header>
+      
+      <h1 class="h1">BOLT BOOSTER</h1>
+      
+      <!--<p class="main-text-index">Share this link with your followers! 
+        <a id="unique-link" href="{{ lastUser.unique_link }}" class="link-text-wrapper">{{ lastUser.unique_link }}</a></p>
+        <br><br>
+        <p class="main-text">⚡️⚡️⚡️ A preview of the users experience is shown below. ⚡️⚡️⚡️</p><br><br>
+        <br><br>
+        <h2> SHARE THIS LINK </h2>
+        <h2 id="unique-link">{{ lastUser.unique_link }}</h2>
+        <h3>Preview below</h3>-->
+	    <!--<h2>⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️</h2>-->
+        <p class="main-text-index">Login with <a href="https://getalby.com/">getalby</a> to boost sats to <b id="ln-address"><span style="color: #e79701">{{ lastUser.ln_address }}</span></b></p>
+
+        <div class="row"></div>
+            <div class="column left">
+                <div class="video-container">
+                    <iframe width="560" height="349" src="https://www.youtube.com/embed/COKhfMqL5IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+          
+            <div class="column right">
+                <div class="booster-group">
+                    <span class="custom-amount-text">Custom Amount</span><br>
+                        <input class="custom-amount" id="custom-amount" placeholder="00"><br>
+                        <button href="#" id="two-sat-button" class="button-custom-boost">Send Custom Boost</button>
+                    <span class="quick-select-font">Quick Select</span><br><br><br>
+                        <div class="sats-boost-button-row">
+                            <button href="#" id="one-sat-button" class="sats-boost">
+                                <span style="font-size:30px;">1 </span>
+                                <span style="font-size:20px; color:#e79701;">SAT</span>
+                            </button>
+                            <button href="#" id="five-sats-button" class="sats-boost">
+                                <span style="font-size:30px;">5 </span>
+                                <span style="font-size:20px; color:#e79701;">SATS</span>
+                            </button> 
+                            <button href="#" id="ten-sats-button" class="sats-boost">
+                                <span style="font-size:30px;">10 </span>
+                                <span style="font-size:20px; color:#e79701;">SATS</span>
+                            </button>
+                        </div>
+                    <button href="#" id="unlock-button" class="boost-mode">Connect to Alby &rarr;</button>
+                </div>
+        </div>
+    </div>
+
+
+        <!--<iframe width="560" height="315" src="{{ lastUser.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/COKhfMqL5IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+
+        <p>
+          <a href="#" id="unlock-button"><b>Connect to Alby &rarr;</b></a>
+        
+          <a href="#" id="one-sat-button"><i>1 SAT &rarr;</i></a>
+          <a href="#" id="five-sats-button"><i>5 SATS &rarr;</i></a>
+          <a href="#" id="ten-sats-button"><i>10 SATS &rarr;</i></a>
+        </p>
+         this comment is pulled to the javascript -->
+        <!--<h5>Leave a comment!</h5>
+        <textarea id="message"></textarea>-->
+  
+        <!--<p>
+          <a href="#" id="stream-button"><i>Stream &rarr;</i></a>
+        </p>-->
+        
+        <p id="payment-hash" class="hide-preimage"></p>
+        <p id="payment-request" class="hide-preimage"></p><br>
+        <div id="success" class="boostifications"><span style="font-size:20px; color:#70e701;">BOOST LOG</span></div><br><br>
+        <div id="connect_success" style="position: absolute; top: 0px; right: 0px; padding: 30px;" class="main-text"></div>
+        <h6 id="preimage" class="hide-preimage"></h6>
+
+      </header>
+      <main></main>
+		
+</body>
+<script src="static/assets/js/lnurl-pay.js"></script>
+
+<script src="static/assets/js/pay.js"></script>
+
+</html>

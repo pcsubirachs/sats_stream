@@ -33,7 +33,7 @@ async function pay() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("connect_success").append("1 SAT has been sent to initialize connection! Sending sats is now enabled.");
+      document.getElementById("connect_success").innerHTML = "1 SAT has been sent to initialize connection! Sending sats is now enabled.";
     } else {
       alert("fail");
     }
@@ -75,7 +75,7 @@ async function pay_1_sat() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("success").append(" BOOSTED 1 SAT! ");
+      document.getElementById("success").innerHTML = " BOOSTED 1 SAT! "; 
     } else {
       alert("fail");
     }
@@ -116,7 +116,7 @@ async function pay_five_sats() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("success").append(" BOOSTED 5 SATS! ");
+      document.getElementById("success").innerHTML = " BOOSTED 5 SATS! ";
     } else {
       alert("fail");
     }
@@ -158,7 +158,7 @@ async function pay_ten_sats() {
     // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
     // if it validates, then it confirms
     if (validatePreimage(payResponse.preimage)) {
-      document.getElementById("success").append(" BOOSTED 10 SATS! ");
+      document.getElementById("success").innerHTML = " BOOSTED 10 SATS! ";
     } else {
       alert("fail");
     }
@@ -172,6 +172,52 @@ document.getElementById("ten-sats-button").addEventListener("click", (event) => 
   //event.target.innerHTML = "BOOSTED!";
   pay_ten_sats();
 });
+
+// 2 SAT
+async function pay_2_sat() {
+  const custom_amount = document.getElementById("custom-amount").value;
+
+  // https://github.com/dolcalmi/lnurl-pay
+  // can use a simple lnurl request invoice
+  // pass in lnurl or ln address, how many sats you want to send, and if you want to send a comment
+  const { invoice, params, successAction, validatePreimage } =
+    await LnurlPay.requestInvoice({
+      // this needs to grab the address of the creator from the database, TBD
+      lnUrlOrAddress: "subirachs@getalby.com",
+      tokens: custom_amount,
+    });
+  
+  // call webln
+  if (window.webln) {
+    await webln.enable();
+
+    // second call to send payment
+    const payResponse = await webln.sendPayment(invoice);
+
+    // get preimage from the wallet, we get the preimage from the wallet
+    document.getElementById("preimage").innerHTML = payResponse.preimage;
+
+    // validate the preimage by comparing the hash of the preimage to the payment hash of the lightning invoice
+    // if it validates, then it confirms
+    if (validatePreimage(payResponse.preimage)) {
+      document.getElementById("success").innerHTML = " BOOSTED " + custom_amount + " SATS!"; 
+    } else {
+      alert("fail");
+    }
+  } else {
+    alert("NO webln enabled");
+  }
+}
+
+document.getElementById("two-sat-button").addEventListener("click", (event) => {
+  event.preventDefault();
+  //event.target.innerHTML = "BOOSTED!";
+  pay_2_sat();
+});
+
+
+
+
 
 // stream function TBD
 
@@ -188,3 +234,6 @@ document.getElementById("stream-button").addEventListener("click", (event) => {
 
 
 // testing
+
+
+

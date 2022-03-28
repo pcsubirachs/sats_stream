@@ -16,7 +16,7 @@ sats = Blueprint("sats", __name__)
 def index():
     return render_template('index.html')
 
-#add a new user route
+#ceate a unique link route, adds new creator(user) to the database
 @sats.route("/wrapper", methods=["POST"])
 def create_user():
     print("CREATING A NEW USER...")
@@ -55,6 +55,11 @@ def create_user():
         return render_template('wrapper.html', lastUser=lastUser)
     else:
         return render_template('error.html')
+
+@sats.route("/boosting", methods=["POST", "GET"])
+def user_page():
+    lastUser = User.query.order_by(-User.id).first()
+    return render_template('wrapper_user.html',  lastUser=lastUser)
 
 
 # testing

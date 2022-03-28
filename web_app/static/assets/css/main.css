@@ -126,7 +126,7 @@ h1 {
     background-color: #141416;
     border: 1px solid #e79701;
     border-radius: 8px;
-    height: 500px;
+    height: 525px;
     max-width: 600px;
     padding-left: 20px;
     padding-right: 20px;
@@ -166,7 +166,7 @@ h1 {
     border: 1px solid #e79701;
     border-radius: 8px;
     height: 450px;
-    max-width: 600px;
+    width: 500px;
     padding: 30px;
     margin: 0 auto;
 
@@ -199,8 +199,56 @@ h1 {
     padding: 10px 10px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
+
+/* button custom boost*/
+
+.button-custom-boost {
+    background-color:#141416;
+    border: 1px solid #e79701;
+    color: #e79701;
+    text-align: center;
+    font-family: var(--all-round-gothic-25-pt-family);
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*.button-custom-boost{
+    cursor: pointer;
+    display: inline-block;
+    position: center;
+    transition: 0.5s;
+}
+  
+.button-custom-boost:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button-custom-boost:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+  
+.button-custom-boost:hover:after {
+    opacity: 1;
+    right: 10px;
+}*/
+
+
+
+
 
 .quick-select-font {
     position: left;
@@ -224,11 +272,11 @@ h1 {
     border: none;
     color: rgb(255, 255, 255);
     text-align: center;
-    display: inline-block;
     font-family: var(--all-round-gothic-25-pt-family);
     font-size: 25px;
     border-radius: 8px;
     padding: 10px 60px;
+    display: inline-block;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -260,6 +308,7 @@ h1 {
   .column {
     float: left;
     padding: 10px;
+    height: 80%;
   }
 
   .left {
@@ -300,3 +349,27 @@ h1 {
 
 
 /*testing*/
+
+.boostifications {
+    background-color: #141416;
+    color: black;
+    border: 1px solid #70e701;
+    font-family: var(--all-round-gothic-25-pt-family);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+
+    position: absolute; 
+    top: 150px; 
+    right: 100px;
+    display: block;
+}
+
+.hide-preimage {
+    display: none;
+}
