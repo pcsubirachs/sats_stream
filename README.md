@@ -2,4 +2,12 @@
 Bolt Fun Hackathon project - send sats, receive sats, stream sats over live stream / video
 
 ## MVP
-<img src="https://github.com/pcsubirachs/sats_stream/blob/main/img/liotta.png" alt="drawing" align="middle" width="800"/>
+
+### Login
+<img src="https://github.com/pcsubirachs/sats_stream/blob/main/img/login.png" alt="drawing" align="middle" width="800"/>
+
+### Create a unique link
+<img src="https://github.com/pcsubirachs/sats_stream/blob/main/img/login.png" alt="drawing" align="middle" width="800"/>
+
+### User page to send you sats
+<img src="https://github.com/pcsubirachs/sats_stream/blob/main/img/login.png" alt="drawing" align="middle" width="800"/>
