@@ -22,9 +22,23 @@ h1 {
     color: #e79701;
 }
 
+.body-index {
+    height: 100%;
+    text-align: center;
+    display: table;
+    margin: auto;
+    vertical-align: middle;
+}
+
 .h1 {
     font-family: var(--nasalization-35-pt-family);
     font-size: 35px;
+    color: #e79701;
+    padding-left: 30px;
+}
+.h1-index {
+    font-family: var(--nasalization-35-pt-family);
+    font-size: 50px;
     color: #e79701;
 }
 
@@ -32,7 +46,39 @@ h1 {
     color: white;
     font-family: var(--all-round-gothic-25-pt-family);
     margin: 5px;
+    padding-left: 30px;
 }
+
+.main-text-index {
+    color: white;
+    font-family: var(--all-round-gothic-25-pt-family);
+    margin: 5px;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.link-text-wrapper {
+    background-color: #141416;
+    color: black;
+    border: 1px solid #e79701;
+    font-family: var(--all-round-gothic-25-pt-family);
+    color: #e79701;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: bold;
+    margin: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.main-text-index-footer {
+    color: white;
+    font-family: var(--all-round-gothic-25-pt-family);
+    margin: 5px;
+    font-size: 15px;
+}
+
+
 
 .sats-boost {
     background-color: #141416;
@@ -44,20 +90,86 @@ h1 {
     padding: 10px 24px;
     font-weight: bold;
     margin: 5px;
-  }
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.sats-boost{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.sats-boost:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.sats-boost:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+  
+.sats-boost:hover:after {
+    opacity: 1;
+    right: 10px;
+}
 
 .booster-group {
-    position: right;
+    /*position: right;*/
     vertical-align: middle;
     background-color: #141416;
     border: 1px solid #e79701;
     border-radius: 8px;
-    max-height: 1000px;
+    height: 500px;
     max-width: 600px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
+    
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.booster-group-index {
+    vertical-align: middle;
+    background-color: #141416;
+    border: 1px solid #e79701;
+    border-radius: 8px;
+    height: 450px;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*position: center;*/
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.booster-group-index-2 {
+    background-color: #141416;
+    border: 1px solid #e79701;
+    border-radius: 8px;
+    height: 450px;
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+
 }
 
 .sats-select-font {
@@ -116,51 +228,29 @@ h1 {
     font-family: var(--all-round-gothic-25-pt-family);
     font-size: 25px;
     border-radius: 8px;
-    padding: 10px 130px;
+    padding: 10px 60px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     
 }
 
-.yamis-bs{
-    position: center;
+.boost-mode-index {
+    background-color:#e79701;
+    border: none;
+    color: rgb(255, 255, 255);
     text-align: center;
-    border-radius: 8px;
-    color: white;
+    display: inline-block;
     font-family: var(--all-round-gothic-25-pt-family);
-    font-size: 30px;
-    background-color: #141416;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 10px 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
 }
 
-.yamis-big-box {
-    background-color: #141416;
-    border: 1px solid #71D318;
-    padding: 50px;
-}
-
-/*
-.container {
-    width: 100%;
-    height: 90%;
-    border: 1px solid #71D318;
-}
-
-.main_div {
-    width: 70%;
-    position: left;
-}
-
-.video-container { 
-    height: 200px;
-    position: left;
-    border: 3px solid green; 
-  }
-
-.side_div {
-    width: 30%;
-    position: right;
-}*/
 
 * {
     box-sizing: border-box;
@@ -174,10 +264,13 @@ h1 {
 
   .left {
     width: 75%;
+    padding-left: 30px;
   }
   
   .right {
     width: 25%;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   
   /* Clear floats after the columns */
@@ -204,3 +297,6 @@ h1 {
       height: 100%;
       border-radius: 8px;
   }
+
+
+/*testing*/

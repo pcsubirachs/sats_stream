@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>BOLTBOOSTER</title>
+		<title>BOLT BOOSTER</title>
 		<link rel="stylesheet" href="static/assets/css/main.css">
-		<script src="https://unpkg.com/webln@0.2.0/dist/webln.min.js" 
-			integrity="sha384-mTReBqbhPO7ljQeIoFaD1NYS2KiYMwFJhUNpdwLj+VIuhhjvHQlZ1XpwzAvd93nQ" 
-			crossorigin="anonymous">
-		</script>
+		<link rel="stylesheet" href="static/assets/css/variables.css">
 	</head>
-<body>
+<body class="body-index">
+	<br><br><br>
+    <h1 class="h1-index">BOLT BOOSTER</h1>
 
-    <h1 color="white">BOLTBOOSTER</h1>
+	<p class="main-text-index">Monetize any video instantly and for free. <br><br> Easily allow users to boost you sats as they watch the video. <br><br>Create a shareable link below!</p><br>
 
-    <iframe src="https://giphy.com/embed/jKMt4JQDQSPKlMRW0H" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br><br>
+    <!--<iframe src="https://giphy.com/embed/jKMt4JQDQSPKlMRW0H" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br><br>
 
     <p>Monetize any video instantly and for free. Easily allow users to send you sats.</p> 
 	<p>Liotta laugh and let the sats flow.</p><br>
@@ -26,7 +25,19 @@
 
 		<p>Create a unique link that allows anyone to send sats instanstly. </p>
         <button>CREATE LINK</button>
-    </form>
+    </form>-->
+
+	<form action="/wrapper" method="POST" style="float:center;">
+		<div class="booster-group-index-2">
+			<span class="custom-amount-text">Enter Your LN Address:</span><br>
+				<input name="ln_address" class="custom-amount" placeholder="me@getalby.com"/><br><br>
+			<span class="quick-select-font">Paste Video Embed Link:</span><br>
+				<input name="link" class="custom-amount" placeholder="youtube.com/embed/myvideo"/><br><br><br>
+			<button class="boost-mode-index">Create Link</button>
+		</div>
+	</form><br><br>
+
+	<p class="main-text-index-footer">No LN Address? Go to <a href="https://getalby.com/">getalby</a> to sign up.</p>
 
 </body>
 </html>
