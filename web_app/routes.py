@@ -62,11 +62,17 @@ def user_page():
     return render_template('wrapper_user.html',  lastUser=lastUser)
 
 
-# testing
+# testing new layout
 
-@sats.route("/test_html", methods=['POST', 'GET'])
-def test_aww():
-    return render_template('test_aww.html')
+@sats.route("/test_index", methods=['POST', 'GET'])
+def test_index():
+    return render_template('test_index.html')
+
+@sats.route("/test_watch", methods=['POST', 'GET'])
+def test_watch():
+    return render_template('test_watch.html')
+
+#------
 
 @sats.route("/test", methods=['POST', 'GET'])
 def test():
