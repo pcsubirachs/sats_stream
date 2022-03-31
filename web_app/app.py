@@ -10,8 +10,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 load_dotenv()
 
-#DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
-DATABASE_URL = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
+DATABASE_URL = os.getenv("DATABASE_URL", default="OOPS")
+#DATABASE_URL = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
 
 # heroku cleanup
 #SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
