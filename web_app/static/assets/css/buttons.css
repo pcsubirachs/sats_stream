@@ -1,0 +1,39 @@
+.sats-boost {
+    background-color: #141416;
+    color: black;
+    border: 1px solid #e79701;
+    font-family: var(--all-round-gothic-25-pt-family);
+    color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: bold;
+    margin: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.sats-boost{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.sats-boost:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.sats-boost:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+  
+.sats-boost:hover:after {
+    opacity: 1;
+    right: 10px;
+}
