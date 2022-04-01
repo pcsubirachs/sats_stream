@@ -7,6 +7,7 @@
     
     <!-- CSS Base -->
     <link rel="stylesheet" href="https://px8-studio.fi/wp-content/themes/px8-studio/dist/style.css">
+    <link rel="stylesheet" href="static/assets/css/variables.css">
     
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://px8-studio.fi/wp-content/themes/px8-studio/assets/favicon/apple-touch-icon.png">
@@ -87,10 +88,10 @@
                 <!-- Module - Logo -->
                 <div class="module module-logo">
                         <a href="/test_index" class="logo" data-cursor-hover="">
-                            <span class="logo-outline"><strong style="color: #e79701;">Bolt</strong>Boost</span>
+                            <span class="logo-outline"><strong style="color: #e79701;">BOLT</strong>BOOST</span>
                             <span class="logo-solid">
                                 <span class="logo-solid-mask loaded" data-page-progress="" style="width: 100%;">
-                                    <span class="logo-solid-text"><strong style="color: #e79701;">Bolt</strong>Boost</span>
+                                    <span class="logo-solid-text"><strong style="color: #e79701;">BOLT</strong>BOOST</span>
                                 </span>
                             </span>
                         </a>
@@ -104,10 +105,37 @@
     
         <!-- Section Header -->
         <div class="section-header">
-            <!--<h1>Bitcoin Study</h1>
-          <a href="/" class="link-back" style="text-align: right;"><span>Connect to Alby</span></a>-->
-          <a href="/" target="_blank" class="h4 link-underline-hover" style="float: right;" data-cursor-hover="">Connect to Alby</a><br>
-                                
+            <!--<h1>Bitcoin Study</h1>-->
+          <!--<a href="/" class="link-back" style="text-align: right;"><span>Connect to Alby</span></a>-->
+          <!--<a href="/" target="_blank" class="h4 link-underline-hover" style="float: left;" data-cursor-hover="">Connect to Alby &rarr;</a>-->
+
+            <div class="row" style="padding-left: 20px; padding-right: 20px;">
+                <div class="column" style="width: 20%; float: left;">
+                    <a href="/" class="h4 link-underline-hover" data-cursor-hover="">Connect to Alby &rarr;</a>
+                </div>
+                <div class="column" style="width: 60%; display: flex; justify-content: center;">
+                    <button href="#" id="one-sat-button" 
+                        style="background-color: #f8f6f6;;
+                        color: black;
+                        border: 1px solid #e79701;
+                        font-family: var(--all-round-gothic-25-pt-family);
+                        color: black;
+                        border-radius: 8px;
+                        padding: 5px 15px;
+                        font-weight: bold;
+                        margin: 5px;
+                        transition: all 0.5s;
+                        cursor: pointer;">
+                        <span style="font-size:25px;">1 </span>
+                        <span style="font-size: 15px; color:#e79701;">SAT</span>
+                    </button>
+                    <!--<button style="margin-right: 20px;">1 SAT</button><button style="margin-right: 20px;">5 SATS</button><button style="margin-right: 5px;">10 SATS</button>-->
+                </div>
+                <div class="column" style="width: 20%; float: right;"> 
+                    <input placeholder="Custom Sats" style="float: right;"></input>
+                </div>
+            </div>
+        
         </div>
     
         <!-- Section Content -->
