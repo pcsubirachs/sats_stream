@@ -74,6 +74,10 @@ def test_watch():
 
 #------
 
+@sats.route("/test_send", methods=['POST', 'GET'])
+def test_pay():
+    return render_template('test_send.html')
+
 @sats.route("/test", methods=['POST', 'GET'])
 def test():
     # get latest user
@@ -88,10 +92,6 @@ def test():
 #@sats.route("/test_pay", methods=['POST', 'GET'])
 #def test_pay():
 #    return render_template('test_pay.html')
-
-@sats.route("/test_pay", methods=['POST', 'GET'])
-def test_pay():
-    return render_template('test_send.html')
 
 # examples
 #>>> import lnurl

@@ -1,8 +1,10 @@
+// why won't this work
+
 async function pay() {
   //const comment = document.getElementById("message").value;
   const { invoice, params, successAction, validatePreimage } =
     await LnurlPay.requestInvoice({
-      lnUrlOrAddress: "ben@lnurl.com",
+      lnUrlOrAddress: "subirachs@getalby.com",
       tokens: 1,
       //comment: comment,
     });
