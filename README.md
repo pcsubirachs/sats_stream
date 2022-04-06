@@ -1,4 +1,4 @@
-# sats_stream
+# BOLT BOOST
 Bolt Fun Hackathon project - send sats, receive sats, stream sats over live stream / video
 
 ### Explore
