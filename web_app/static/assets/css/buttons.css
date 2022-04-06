@@ -118,3 +118,26 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #F69619;}
+
+
+
+.boostifications {
+    background-color: #f8f6f6;
+    color: black;
+    /*border: 1px solid #70e701;*/
+    border: 1px solid black;
+    font-family: Uxum Grotesque;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 15px;
+
+    position: absolute; 
+    top: 50px; 
+    right: 5px;
+    display: block;
+}
+

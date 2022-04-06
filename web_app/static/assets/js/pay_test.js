@@ -44,7 +44,7 @@ async function pay() {
 
 document.getElementById("unlock-button").addEventListener("click", (event) => {
   event.preventDefault();
-  event.target.innerHTML = "loading...";
+  event.target.innerHTML = "Boost Mode...";
   pay();
   //event.target.innerHTML = "Boost Mode..."
 });

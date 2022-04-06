@@ -9,3 +9,6 @@ Bolt Fun Hackathon project - send sats, receive sats, stream sats over live stre
 
 ### Info
 <img src="https://github.com/pcsubirachs/sats_stream/blob/main/img/info.png" alt="drawing" align="middle" width="800"/>
+
+### Boosting to Gigi
+<img src="https://github.com/pcsubirachs/sats_stream/blob/main/img/ss_gigi.png" alt="drawing" align="middle" width="800"/>
