@@ -128,7 +128,7 @@
     border: 1px solid black;
     font-family: Uxum Grotesque;
     border-radius: 8px;
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: bold;
     margin: 5px;
     transition: all 0.5s;
