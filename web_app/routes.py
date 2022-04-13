@@ -72,6 +72,10 @@ def test_index():
 def test_watch():
     return render_template('test_watch.html')
 
+@sats.route("/test_watch_2", methods=['POST', 'GET'])
+def test_watch_2():
+    return render_template('test_watch_cleanup.html')
+
 #------
 
 @sats.route("/test_send", methods=['POST', 'GET'])
