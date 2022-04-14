@@ -76,6 +76,12 @@ def test_watch():
 def test_watch_2():
     return render_template('test_watch_cleanup.html')
 
+# video test
+
+@sats.route("/video_browse", methods=['POST', 'GET'])
+def video_browse():
+    return render_template('video/video_browse.html')
+
 #------
 
 @sats.route("/test_send", methods=['POST', 'GET'])
