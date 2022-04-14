@@ -78,9 +78,15 @@ def test_watch_2():
 
 # video test
 
-@sats.route("/video_browse", methods=['POST', 'GET'])
-def video_browse():
-    return render_template('video/video_browse.html')
+@sats.route("/vb", methods=['POST', 'GET'])
+def vb():
+    return render_template('videos/vb.html')
+
+# memes testing
+
+@sats.route("/mb", methods=['POST', 'GET'])
+def mb():
+    return render_template('memes/mb.html')
 
 #------
 
