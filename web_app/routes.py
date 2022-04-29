@@ -76,7 +76,7 @@ def test_watch():
 def test_watch_2():
     return render_template('test_watch_cleanup.html')
 
-# video test
+# video browse test
 
 @sats.route("/vb", methods=['POST', 'GET'])
 def vb():
@@ -87,6 +87,12 @@ def vb():
 @sats.route("/mb", methods=['POST', 'GET'])
 def mb():
     return render_template('memes/mb.html')
+
+# user profile
+
+@sats.route("/profile", methods=['POST', 'GET'])
+def user_profile():
+    return render_template('user/profile.html')
 
 #------
 
