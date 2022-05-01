@@ -1,3 +1,6 @@
+.center{
+    text-align: center;
+}
 .connect-to-alby{
     background-color: #f8f6f6;
     color: black;
@@ -57,14 +60,11 @@
     font-size: 15px;
     border-radius: 8px;
     padding: 5px 10px;
-    /*margin: 0 auto;*/
     margin: 5px;
     display: flex;
     width: 75px;
     height: 40px;
     font-weight: bold;
-    /*vertical-align: middle;*/
-    /*justify-content: left;*/
 }
 
 /*.vert {
