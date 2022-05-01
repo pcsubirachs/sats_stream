@@ -76,11 +76,17 @@ def test_watch():
 def test_watch_2():
     return render_template('test_watch_cleanup.html')
 
-# login
+# login & signup
+
 @sats.route("/login", methods=['POST', 'GET'])
 def login():
     # do some database stuff
     return render_template('login/login.html')
+
+@sats.route("/signup", methods=['POST', 'GET'])
+def signup():
+    # do some database stuff
+    return render_template('signup.html')
 
 # video browse test
 
@@ -128,3 +134,18 @@ def test():
 #>>> lnurl.decode('LNURL1DP68GURN8GHJ7UM9WFMXJCM99E5K7TELWY7NXENRXVMRGDTZXSENJCM98PJNWXQ96S9')
 #WebUrl('https://service.io/?q=3fc3645b439ce8e7', scheme='https', host='service.io', tld='io', host_type='domain', path='/', query='q=3fc3645b439ce8e7')
 
+
+
+# routes user study
+
+# comes to home page
+# finds info about site
+# clicks around to see various videos / memes
+# decides to sign up
+# Creates ln address and PW
+    # TBD verified, needed?
+    # able to sign up via twitter - TBD
+# navigates to user profile page
+# able to upload video or meme
+# able to share unique link with followers
+# done
